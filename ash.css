@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body{
+   background-color:black;
+}
+#container1 {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  border: 1px black ;
+  background-image:linear-gradient(to bottom right,#a00c24, #240b36);
+  color:white;
+  font-size:35px;
+  border-radius: 0px 0px 25px 25px;
+  padding-bottom: 20px;
+  width: 70%;
+  font-family: 'Noto Serif', serif;
+  height: auto;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+ul {
+    border: 2px solid rebeccapurple;
+    list-style-type: none;
+    width: 60%;
+    border-radius: 25px 25px 25px 25px;
+    margin: auto;
+    text-align: center;
+    font-size:25px;
+    overflow: hidden;
+    }
+ 
+  li {
+    display: inline-block;
+    font-display: center-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size:20px;
+  }
+
+  li:hover {
+    background-color:#990855ad;}
+
+  .container2{
+    border: 2px solid rebeccapurple;
+    border-radius: 0px 0px 0px 0px;
+    padding-bottom: 20px;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    font-size:30px;
+    height: auto;
+    
+  }
+
+ .container3{
+    
+    border-radius: 0px 0px 0px 0px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    }
+.container3 img{
+  height:300px;
+  width: 300px;
+}
+.container3 td{
+  padding: 1rem;
+}
+.container3 p{
+  font-family: 'Noto Serif', serif;
+  font-size:20px;
+  color:white;
+  text-align: center;
+  }
+.container3 h3{
+  font-family: 'Noto Serif', serif;
+  font-size:30px;
+  color:white;
+  text-align: center;
+}
+.container3 td{
+  position: relative;
+  bottom: 20px;
+}
+
+.container4{
+  align-items: center;
+  border-radius: 0px 0px 0px 0px;
+  width: 70%;
+  margin-left: 150px;
+  text-align: center;
+}
+.container4 p{
+  font-family: 'Noto Serif', serif;
+  font-size:20px;
+  color:white;
+  text-align: center;
+}
+.container4 img{
+  height:150px;
+  width: 150px;
+}
+.container4 td{
+  position: relative;
+  bottom: 20px;
+}
+
+h3.v1{
+    margin: auto;
+    font-size:20px;
+    color:white;
+    border:2px violet;
+    border-style:solid;
+    border-radius: 25px 25px 25px 25px;
+    padding:1%;
+    width: 30%;
+    text-align: center
+  }
