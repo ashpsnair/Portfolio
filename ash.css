@@ -7,11 +7,10 @@ body{
   margin: auto;
   text-align: center;
   font-weight: bold;
-  border: 1px black ;
   background-image:linear-gradient(to bottom right,#a00c24, #240b36);
   color:white;
   font-size:35px;
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 25px 25px 25px 25px;
   padding-bottom: 20px;
   width: 70%;
   font-family: 'Noto Serif', serif;
@@ -28,7 +27,7 @@ ul {
     margin: auto;
     text-align: center;
     font-size:25px;
-    overflow: hidden;
+    
     }
  
   li {
@@ -50,70 +49,55 @@ ul {
   }
 
   li:hover {
-    background-color:#990855ad;}
+    background-color:#7c07458e;}
 
-  .container2{
-    border: 2px solid rebeccapurple;
-    border-radius: 0px 0px 0px 0px;
-    padding-bottom: 20px;
-    width: 70%;
-    align-items: center;
-    margin: auto;
-    font-family: 'Noto Serif', serif;
-    font-size:30px;
-    height: auto;
-    
-  }
+ 
 
- .container3{
-    
-    border-radius: 0px 0px 0px 0px;
+ .container2{
     width: 70%;
     margin: auto;
     text-align: center;
     }
-.container3 img{
+.container2 img{
   height:300px;
   width: 300px;
 }
-.container3 td{
+.container2 td{
   padding: 1rem;
 }
-.container3 p{
+.container2 p{
   font-family: 'Noto Serif', serif;
   font-size:20px;
   color:white;
   text-align: center;
   }
-.container3 h3{
+.container2 h3{
   font-family: 'Noto Serif', serif;
   font-size:30px;
   color:white;
   text-align: center;
 }
-.container3 td{
+.container2 td{
   position: relative;
   bottom: 20px;
 }
 
-.container4{
+.container3{
   align-items: center;
-  border-radius: 0px 0px 0px 0px;
   width: 70%;
   margin-left: 150px;
   text-align: center;
-}
-.container4 p{
   font-family: 'Noto Serif', serif;
   font-size:20px;
   color:white;
   text-align: center;
 }
-.container4 img{
+
+.container3 img{
   height:150px;
   width: 150px;
 }
-.container4 td{
+.container3 td{
   position: relative;
   bottom: 20px;
 }
@@ -129,3 +113,19 @@ h3.v1{
     width: 30%;
     text-align: center
   }
+
+  .container4{
+    border: 2px solid rebeccapurple;
+    border-radius: 0px 0px 0px 0px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-family: 'Noto Serif', serif;
+    font-size:20px;
+    }
+    .container4 img{
+      height:10px;
+      width: 10px;
+    }
+  
